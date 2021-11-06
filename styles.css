@@ -1,3 +1,26 @@
+#grid {
+    background-color: gold;
+    display: grid;
+    padding: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-column {
+    background-color: lightgray;
+    border-style: solid;
+    border-color: darkolivegreen;
+}
+
+.grid-item {
+    background-color: lemonchiffon;
+    padding: 10px;
+}
+
+.grid-item:hover {
+    background-color: lightcyan;
+}
+
 button {
     background-color: green;
     width: 200px;
